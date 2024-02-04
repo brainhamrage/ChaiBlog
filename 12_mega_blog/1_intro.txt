@@ -1,0 +1,10 @@
+step1-> make vite project
+step2-> install necessary dependencies  npm i @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form  
+step3-> in appwrite create database ,collections,attributes,index,bucket
+step4-> make .env file for environment variables (Keep sensitive information, such as secret keys, passwords, or tokens, out of the source code and configuration files. This helps prevent accidental exposure of sensitive data and facilitates more secure deployment practices.)
+step5-> make conf.js (keys contains numbers,charactes so if any key contains only numbers then 
+        in js it will be treated as Number not string so to avoid this )
+step6-> build authentication & database functionalities in appwrite folder
+step7-> make store to state management
+step8-> make componenets
+step9-> install tailwind
